@@ -1,0 +1,1 @@
+web: source setup.sh && python preprocessing.py && gunicorn app:app
